@@ -1,13 +1,21 @@
 <template>
-  <PrimeiroComponente />
+  <div>
+    <!-- <PrimeiroComponente /> -->
+    <!-- <LiveCycle /> -->
+    <pessoa />
+  </div>
 </template>
 
 <script>
-  import PrimeiroComponente from './components/PrimeiroComponente.vue'
+  // import PrimeiroComponente from './components/PrimeiroComponente.vue'
+  import LiveCycle from './components/LiveCycle.vue'
+  import Pessoa from "./components/Pessoa.vue";
   export default {
     name: "App",
     components: {
-      PrimeiroComponente
+      // PrimeiroComponente,
+      LiveCycle,
+      Pessoa,
     }
   }
 </script>
